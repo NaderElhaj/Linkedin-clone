@@ -1,6 +1,7 @@
 .feed{
     flex: 0.6;
     margin: 0 20px;
+    margin-top: 50px;
 }
 
 .feed__inputContainer{
@@ -18,7 +19,9 @@
     color: gray;
     padding-left: 15px;
 
+
 }
+
 .feed__input > form {
     display: flex;
     width: 100%;
@@ -29,6 +32,7 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
+
 }
 
 .feed__input > form >button{
