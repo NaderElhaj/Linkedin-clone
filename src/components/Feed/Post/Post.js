@@ -6,7 +6,7 @@ import ThumbUpOutlinedIcon from '@material-ui/icons/ThumbUpAltOutlined'
 import ChatOutlinedIcon from '@material-ui/icons/ChatOutlined'
 import ShareOutlinedIcon from  '@material-ui/icons/ShareOutlined'
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined'
-function Post({name,description,message,photoUrl}) {
+function Post({name,description,message}) {
 
     return (
         <div className="post">
