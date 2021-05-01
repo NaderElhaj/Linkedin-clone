@@ -28,7 +28,21 @@
 .widgets__article:hover{
     background-color: whitesmoke;
 }
-.widgets__articleLeft{
-    color: #0177b7;
+.widgets__atricleLeft{
+    color: #0177b7  !important;
     margin-right: 5px;
+}
+.widgets__atricleLeft > .MuiSvgIcon-root{
+    font-size: 15px  ;
+}
+.widgets__atricleRight{
+    flex: 1;
+
+}
+.widgets__atricleRight > h4 {
+    font-size: 14px;
+}
+.widgets__atricleRight > p{
+    font-size: 12px;
+    color: gray;
 }
